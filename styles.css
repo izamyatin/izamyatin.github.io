@@ -1,0 +1,36 @@
+/* Внешняя таблица стилей */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+nav {
+    background-color: #333; /* Серый фон для навигационного меню */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 0; /* Убираем отступ сверху */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Цвет текста ссылок меняем на белый */
+}
+
+.main-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}

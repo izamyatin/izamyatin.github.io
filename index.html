@@ -36,7 +36,7 @@
         <li>Надежность</li>
     </ul>
     
-<h2 style="text-align: center;">Форма заказа</h2>
+<h2 style="text-align: left;">Форма заказа</h2>
 
 <form id="orderForm" onsubmit="handleSubmit(event)">
     <label for="name">Имя:</label>
@@ -57,7 +57,5 @@
 
 <script> function handleSubmit(event) { event.preventDefault(); const formData = new FormData(event.target); const data = Object.fromEntries(formData.entries()); console.log(data); // Вывод данных формы в консоль alert(`Ваш заказ успешно отправлен!\nИмя: ${data.name}\nТовар: ${data.product}\nКоличество: ${data.quantity}`); } </script>
 
-</body>
-</html>
 </body>
 </html>

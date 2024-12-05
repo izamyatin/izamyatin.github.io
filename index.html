@@ -55,7 +55,7 @@
     <button type="submit">Отправить заказ</button>
 </form>
 
-<script> function handleSubmit(event) { event.preventDefault(); const formData = new FormData(event.target); const data = Object.fromEntries(formData.entries()); console.log(data); // Вывод данных формы в консоль alert(`Ваш заказ успешно отправлен!\nИмя: ${data.name}\nТовар: ${data.product}\nКоличество: ${data.quantity}`); } </script>
+<script> function handleSubmit(event) { event.preventDefault(); const formData = new FormData(event.target); const data = Object.fromEntries(formData.entries()); console.log(data); <script> 
 
 </body>
 </html>
